@@ -39,12 +39,12 @@ public class BlogController {
 	}
 
 	@PutMapping("/blogs")
-	public ResponseEntity<HttpStatus> updateUser(@RequestBody Blog blog) {
+	public ResponseEntity<HttpStatus> updateBlog(@RequestBody Blog blog) {
 		return blogDao.updateBlog(blog);
 	}
 
 	@DeleteMapping("/blogs/{id}")
-	public void deleteUser(@PathVariable Integer id) {
+	public void deleteBlog(@PathVariable Integer id) {
 		blogDao.deleteBlog(id);
 	}
 
