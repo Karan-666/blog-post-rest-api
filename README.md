@@ -20,7 +20,7 @@ MySQL
 
 Setting up a development environment
 * Clone this repository onto your local machine.
-* Create a MySQL database and execute the MySQL-data-export.sql script to create the necessary tables.
+* Create a MySQL database or import the MySQL-data-export.sql file to create the necessary tables.
 * Update the application.properties file located in src/main/resources with your MySQL database credentials.
 * Open the project in an IDE such as Eclipse.
 * Run the BlogApplication.java file as a Java Application.
