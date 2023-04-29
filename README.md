@@ -1,5 +1,9 @@
 <pre>
-This is a RESTful API for managing blog posts. It is built using Java 8 and MySQL database.
+The Blog API is a RESTful API built with Spring Boot and JPA that allows users to interact with a blog database. 
+With this API, users can perform CRUD (Create, Read, Update, Delete) operations on blog posts. 
+The API can be used to retrieve all blog posts or retrieve a specific post by ID. 
+The API handles exceptions and sorts blog posts by date and time created (newest first).
+It is built using Java 8 and MySQL database.
 
 The API provides the following functionality:
 * Create a new blog post
