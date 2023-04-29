@@ -27,4 +27,20 @@ Setting up a development environment
 
 Using the API
 Once the development environment is set up, the API can be accessed through a REST client such as Postman.
+
+GET /blogs
+Retrieves all Blog resources sorted by descending order of dateCreated.
+
+GET /blogs/{id}
+Retrieves a single Blog resource by its ID.
+
+POST /blogs
+Creates a new Blog resource.
+
+PUT /blogs
+Updates an existing Blog resource.
+
+DELETE /blogs/{id}
+Deletes a single Blog resource by its ID.
+
 </pre>
